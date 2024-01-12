@@ -1,0 +1,124 @@
+:root{
+    --cor-menu: #3F3E49;
+    --cor-fundo-card: #708C89;
+    --cor-fundo: #fff;
+    --cor-fundo2: #FAEDC1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--cor-fundo);
+}
+
+
+/* Ajuste do menu inicial */
+.menu{
+    height: 50px;
+    background-color: var(--cor-menu);
+    align-items: center;
+    justify-content: center; 
+}
+
+ul{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-fundo);
+}
+
+
+/* Ajuste da section perfil */
+
+.container_profile{
+    padding: 20px;
+    margin: 25px;
+    border-radius: 25px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.profile{
+    margin: 100px 100px;
+    max-width: 25vh;
+    border-radius: 25px;
+    display: flex;
+}
+.profile_pic{
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
+.container_text_profile{
+    background-color: var(--cor-fundo-card);
+    padding: 20px;
+    border-radius: 25px;
+}
+.container_text_profile > h1{
+    font-size: 38px;
+}
+.container_text_profile > p{
+    font-size: 18px;
+}
+.profile{
+    justify-content: space-evenly;
+}
+
+
+/* Ajuste da section projetos */
+
+.projetos{
+    background-color: var(--cor-fundo-card);
+}
+.sobre_projetos h1{
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 25px;
+}
+.sobre_projetos p{
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+.projeto{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+.titulo_projeto{
+    font-size: 2em;
+}
+.texto_projeto{
+    font-size: 1.4em;
+    text-justify: auto;
+    text-align: justify;
+    padding: 30px;
+}
+.texto_complemento{
+    font-size: 1.4em;
+    padding: 0px 30px ;
+}
+.imagem_previa > a > img{
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 25px;
+}
