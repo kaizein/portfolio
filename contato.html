@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/contato.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Contato</title>
+</head>
+<body>
+
+    <header>
+        <nav id="menu" class="menu">
+            <ul>
+                <li><a href="index.html" class="scroll-link">Pagina inicial</a></li>
+                <li><a href="index.html" class="scroll-link">Sobre min</a></li>
+                <li><a href="index.html" class="scroll-link">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container_contato">    
+        <h1>Contato</h1>
+        <form action="https://formsubmit.co/35d34a817b28e9ec48afdd5ee99d3f61" method="POST">
+            <label for="email">E-mail: </label>
+            <input class="campoFormulario" type="email" name="email" id="email" required placeholder="Digite seu e-mail">
+            <label for="message">Mensagem: </label>
+            <textarea cols="30" rows="10" class="campoFormulario" type="text" name="message" id="message" required placeholder="Digite a sua mensagem"></textarea>
+            <input type="hidden" name="_next" value="">
+            <input type="hidden" name="_captcha" value="false">
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
